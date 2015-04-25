@@ -1,9 +1,9 @@
 echo 'Installing git...'
-sudo yum install git
+sudo yum -y install git
 
 echo 'Installing packages...'
-sudo yum install gcc-c++ glibc-headers openssl-devel readline libyaml-devel readline-devel zlib zlib-devel
-sudo yum install nodejs
+sudo yum -y install gcc-c++ glibc-headers openssl-devel readline libyaml-devel readline-devel zlib zlib-devel
+sudo yum -y install nodejs
 
 echo 'Installing rbenv...'
 sudo git clone https://github.com/sstephenson/rbenv.git /usr/local/rbenv 
@@ -32,7 +32,7 @@ rbenv rehash
 
 echo 'Intalling MySQL'
 sudo yum -y install mysql-server
-sudo yum install mysql-devel
+sudo yum -y install mysql-devel
 echo 'Starting mysqld'
 sudo service mysqld start
 
