@@ -1,5 +1,4 @@
-# Vagrant Box of CentOS for Rails Development
-## !DRAFT!
+# Rails Development Environment on CentOS by Vagrant
 
 - Ruby 2.2.2
 - Rails ~>4.2.0
