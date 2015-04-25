@@ -6,3 +6,4 @@
 - MySQL
 
 *please use bash
+*Folder synced host:'./' with VM:'/vagrant'
