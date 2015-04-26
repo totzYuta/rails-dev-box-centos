@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# set interactive environmental-valiables
+PS1='$ '
+source ~/.bashrc
+
 echo 'Installing git...'
 sudo yum -y install git
 
@@ -8,8 +12,8 @@ sudo yum -y install gcc-c++ glibc-headers openssl-devel readline libyaml-devel r
 
 echo 'Installing rbenv...'
 sudo git clone https://github.com/sstephenson/rbenv.git /usr/local/rbenv 
-sudo echo 'export RBENV_ROOT="/usr/local/rbenv"' >> ~/.bash_profile
-sudo echo 'export PATH="${RBENV_ROOT}/bin:${PATH}"' >> ~/.bash_profile
+sudo echo 'export RBENV_ROOT="/usr/local/rbenv"' >> ~/.bashrc
+sudo echo 'export PATH="${RBENV_ROOT}/bin:${PATH}"' >> ~/.bashrc
 sudo echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 sudo chmod -R 777 /usr/local/rbenv/
 source ~/.bash_profile
