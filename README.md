@@ -9,5 +9,6 @@
 
 ## Notice
 
-- please use bash
+- Please use bash
 - Folder synced host:'./' with VM:'/vagrant'
+- You can start creating Rails app in this root directory
