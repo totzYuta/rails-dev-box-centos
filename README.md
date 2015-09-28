@@ -2,13 +2,14 @@
 
 ## Versions
 
-- Ruby 2.2.2
-- Rails ~>4.2.0
-- CentOS 6.5
-- MySQL
+* Ruby 2.2.3
+* Rails ~>4.2.0
+* CentOS 64
+* MySQL
+* redis
 
 ## Notice
 
-- Please use bash
-- Folder synced host:'./' with VM:'/vagrant'
-- You can start creating Rails app in this root directory
+* Please use bash
+* Folder synced host:`./` with VM:`/vagrant`
+* You can start creating Rails app in this root directory
