@@ -14,15 +14,22 @@
 
 ```
 $ git clone https://github.com/totzyuta/rails-dev-box-centos.git
-```
-
-2. Vagrant up.
-
-```
 $ cd rails-dev-box-centos
+```
+
+2. Install vagrant-itamae plugin
+
+It uses itamae for provisioning
+
+```
+$ vagrant plugin install vagrant-itamae
+```
+
+3. Vagrant up.
+
+```
 $ vagrant up
 ```
-
 
 ## Notice
 
